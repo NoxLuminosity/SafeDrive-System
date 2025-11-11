@@ -1,0 +1,6 @@
+# Drowsiness Detection Script Dependencies
+
+opencv-python==4.10.0          # For real-time video capture and image processing
+mediapipe==0.10.15             # Face mesh and eye landmark detection
+numpy==1.26.4                  # Numerical operations and array handling
+requests==2.32.3               # HTTP communication with ESP32 endpoint
