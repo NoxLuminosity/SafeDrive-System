@@ -1,9 +1,3 @@
-
----
-
-## 📘 `README.md` (Sensor Node Folder)
-
-```markdown
 # Sensor Node v3.3
 
 ## Description
