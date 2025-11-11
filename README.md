@@ -21,24 +21,36 @@ It features:
 ---
 
 ## 📁 Repository Structure
+
+```bash
 SafeDrive-System/
 │
-├── README.md
+├── 📄 README.md                 # Main project documentation
 │
-├── arduino/
-│   ├── sensor_node_v3.3/
+├── 📂 arduino/                  # Arduino-based IoT code
+│   ├── 📂 sensor_node_v3.3/     # Sensor Node: collects driver data
 │   │   ├── sensor_node_v3.3.ino
 │   │   ├── README.md
 │   │   └── libraries.txt
 │   │
-│   └── display_node_v1.7/
+│   └── 📂 display_node_v1.7/    # Display Node: shows data, handles alerts
 │       ├── display_node_v1.7.ino
 │       ├── README.md
 │       └── libraries.txt
 │
-└── python/
-    ├── drowsiness_detection/
-    │   ├── drowsy_detection.py
-    │   ├── requirements.txt
-    │   └── README.md
+└── 📂 python/                   # AI-based drowsiness detection
+    └── 📂 drowsiness_detection/
+        ├── drowsy_detection.py
+        ├── requirements.txt
+        └── README.md
+```
 
+### 🧭 **Description of Folders**
+
+| Folder | Description |
+|--------|--------------|
+| `arduino/` | Contains all embedded system sketches for ESP32-based modules. |
+| `sensor_node_v3.3/` | Collects real-time driver motion, pulse, and grip data. |
+| `display_node_v1.7/` | Displays collected data and triggers alerts. |
+| `python/` | Includes AI and computer vision modules for drowsiness detection. |
+| `drowsiness_detection/` | MediaPipe + OpenCV script for eye tracking and alert signaling. |
