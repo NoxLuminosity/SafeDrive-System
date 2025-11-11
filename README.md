@@ -21,9 +21,24 @@ It features:
 ---
 
 ## 📁 Repository Structure
-arduino/
-├── sensor_node_v3.3/ # Collects sensor data
-└── display_node_v1.7/ # Receives and displays data
+SafeDrive-System/
+│
+├── README.md
+│
+├── arduino/
+│   ├── sensor_node_v3.3/
+│   │   ├── sensor_node_v3.3.ino
+│   │   ├── README.md
+│   │   └── libraries.txt
+│   │
+│   └── display_node_v1.7/
+│       ├── display_node_v1.7.ino
+│       ├── README.md
+│       └── libraries.txt
+│
+└── python/
+    ├── drowsiness_detection/
+    │   ├── drowsy_detection.py
+    │   ├── requirements.txt
+    │   └── README.md
 
-python/
-└── drowsiness_detection/ # AI-based eye tracking
