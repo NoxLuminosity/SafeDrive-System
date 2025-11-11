@@ -1,1 +1,11 @@
+# Sensor Node v3.3 Dependencies
 
+Adafruit_GFX Library          # For OLED display graphics support
+Adafruit_SSD1306              # For OLED display control (if used on sensor side)
+Wire                          # I2C communication for MPU6050 and MAX30105
+SPI                           # Required for some sensor communications
+ESP32 WiFi                    # Core Wi-Fi functions for ESP-NOW
+ESP-NOW                       # Peer-to-peer wireless data transfer
+MPU6050                       # 6-axis motion sensor library
+MAX30105                      # Pulse oximeter and heart rate sensor library
+Adafruit_Sensor               # Common sensor interface library
