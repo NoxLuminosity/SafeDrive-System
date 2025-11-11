@@ -1,1 +1,9 @@
+# Display Node v1.7 Dependencies
 
+Adafruit_GFX Library           # Required for rendering on OLED screen
+Adafruit_SSD1306               # For controlling the OLED display
+Wire                           # I2C communication for display
+SPI                            # Used by display or sensors if connected
+ESP32 WiFi                     # Required for network communication
+ESP-NOW                        # For receiving data from Sensor Node
+Adafruit_Sensor                # Generic sensor handler (if used for readings)
